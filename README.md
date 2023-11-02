@@ -29,20 +29,22 @@ The project consists of the following components:
 
 ## Project Pipeline
 
-1. Inside the container, navigate to the /home/doc-bd-a1/ directory.
-2. Run the data loading script:
-   
-python3 load.py /path/to/your/dataset.csv
+1. Inside the container, navigate to the
+   ```bash
+    /home/doc-bd-a1/ directory.
+3. Run the data loading script:
+   ```bash
+   python3 load.py /path/to/your/dataset.csv
 
 3.The pipeline will generate output files and figures.
 
 4.To copy the results to your local machine and stop the container, execute the final script:
-
+```bash
 ./final.sh
 
 ## Contributors
-Malak Essam
-Shahd Fekry
+Malak Essam,
+Shahd Fekry,
 Nada Adel
 
 ## Files and Directories

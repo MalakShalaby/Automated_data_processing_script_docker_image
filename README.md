@@ -41,8 +41,21 @@ python3 load.py /path/to/your/dataset.csv
 Malak Essam
 Shahd Fekry
 Nada Adel
-  
 
+## Files and Directories
+
+| File/Directory       | Description                                    |
+|----------------------|-----------------------------------------------|
+| `load.py`            | Data loading script.                          |
+| `dpre.py`            | Data preprocessing script.                   |
+| `eda.py`             | Exploratory data analysis script.            |
+| `vis.py`             | Data visualization script.                   |
+| `model.py`           | K-means clustering script.                   |
+| `final.sh`           | Bash script for result extraction and container shutdown. |
+| `Dockerfile`         | Docker configuration file.                   |
+| `requirements.txt`   | Python dependencies.                          |
+| `titanic.csv`        | Sample dataset used for analysis. |
+| `README.md`          | This file.                                    |
 
 
 

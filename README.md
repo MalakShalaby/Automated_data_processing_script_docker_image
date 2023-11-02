@@ -39,8 +39,7 @@ The project consists of the following components:
 3.The pipeline will generate output files and figures.
 
 4.To copy the results to your local machine and stop the container, execute the final script:
-```bash
-./final.sh
+    ./final.sh
 
 ## Contributors
 Malak Essam,

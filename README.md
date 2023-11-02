@@ -21,8 +21,10 @@ The project consists of the following components:
    ```bash
    git clone https://github.com/MalakShalaby/BigDataassi1.git
 2. Build the Docker image from the provided Dockerfile:
-  docker build -t assignment_1 .
-3. Run the Docker container:
+   ```bash
+    docker build -t assignment_1 .
+4. Run the Docker container:
+   ```bash
    docker run -it assignment_1
 
 ## Project Pipeline

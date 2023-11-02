@@ -33,6 +33,7 @@ The project consists of the following components:
 python3 load.py /path/to/your/dataset.csv
 
 3.The pipeline will generate output files and figures.
+
 4.To copy the results to your local machine and stop the container, execute the final script:
 
 ./final.sh
@@ -53,6 +54,7 @@ Nada Adel
 | `model.py`           | K-means clustering script.                   |
 | `final.sh`           | Bash script for result extraction and container shutdown. |
 | `Dockerfile`         | Docker configuration file.                   |
+| `Service-result`     | Contains output files.                  |
 | `requirements.txt`   | Python dependencies.                          |
 | `titanic.csv`        | Sample dataset used for analysis. |
 | `README.md`          | This file.                                    |
